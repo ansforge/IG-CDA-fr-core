@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode,1.4.0,active,"2.16.840.1.113883.5.111",TRE_R216-HL7RoleCode,,"HL7 roleCode","ValueSet/JDV-J11-RelationPatient-CISIS"
+https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique,1.4.0,active,"1.2.250.1.213.1.1.4.327",TRE_R217-ProtectionJuridique,,"Protection juridique","ValueSet/JDV-J11-RelationPatient-CISIS"
+https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge,1.4.0,active,"1.2.250.1.213.1.1.4.2.280",TRE_R258-RelationPriseCharge,,"Relation dans la prise en charge du patient","ValueSet/JDV-J47-FunctionCode-CISIS"
+https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction,1.4.0,active,"2.16.840.1.113883.5.88",TRE_R259-HL7ParticipationFunction,,"Rôles fonctionnels HL7","ValueSet/JDV-J47-FunctionCode-CISIS"
+https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge,1.4.0,active,"1.2.250.1.213.1.6.1.107",TRE_R85-RolePriseCharge,,"Rôle dans la prise en charge des patients ou des usagers","ValueSet/JDV-J47-FunctionCode-CISIS"

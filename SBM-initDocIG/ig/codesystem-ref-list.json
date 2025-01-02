@@ -1,0 +1,64 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "TRE_R216-HL7RoleCode",
+      "title" : null,
+      "description" : "HL7 roleCode",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J11-RelationPatient-CISIS.html" : "JDV_J11-RelationPatient-CISIS"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "TRE_R217-ProtectionJuridique",
+      "title" : null,
+      "description" : "Protection juridique",
+      "oids" : ["1.2.250.1.213.1.1.4.327"],
+      "uses" : {
+      },
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J11-RelationPatient-CISIS.html" : "JDV_J11-RelationPatient-CISIS"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "TRE_R258-RelationPriseCharge",
+      "title" : null,
+      "description" : "Relation dans la prise en charge du patient",
+      "oids" : ["1.2.250.1.213.1.1.4.2.280"],
+      "uses" : {
+      },
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J47-FunctionCode-CISIS.html" : "JDV_J47-FunctionCode-CISIS"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "TRE_R259-HL7ParticipationFunction",
+      "title" : null,
+      "description" : "Rôles fonctionnels HL7",
+      "oids" : ["2.16.840.1.113883.5.88"],
+      "uses" : {
+      },
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J47-FunctionCode-CISIS.html" : "JDV_J47-FunctionCode-CISIS"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "TRE_R85-RolePriseCharge",
+      "title" : null,
+      "description" : "Rôle dans la prise en charge des patients ou des usagers",
+      "oids" : ["1.2.250.1.213.1.6.1.107"],
+      "uses" : {
+      },
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J47-FunctionCode-CISIS.html" : "JDV_J47-FunctionCode-CISIS"
+    }
+  ]
+}

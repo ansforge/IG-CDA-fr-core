@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://interop.esante.gouv.fr/ig/document/core/ValueSet/TRER260HL7RoleClassVS,0.1.0,draft,,TRER260HL7RoleClassVS,TRE_R260-HL7RoleClass,"TRE_R260-HL7RoleClass",,"Other"
+https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS,1.4.0,active,"1.2.250.1.213.3.3.16",JDV_J11-RelationPatient-CISIS,,"Relation par rapport au patient - CI-SIS","StructureDefinition/fr-core-related-entity","ans.fr.nos"
+https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS,1.4.0,active,"1.2.250.1.213.1.1.5.124",JDV_J47-FunctionCode-CISIS,,"Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS","StructureDefinition/fr-core-author","ans.fr.nos"

@@ -1,0 +1,48 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/document/core/ValueSet/TRER260HL7RoleClassVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TRER260HL7RoleClassVS",
+      "title" : "TRE_R260-HL7RoleClass",
+      "description" : "TRE_R260-HL7RoleClass",
+      "systems" : ["urn:oid:2.16.840.1.113883.5.110"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J11-RelationPatient-CISIS",
+      "title" : null,
+      "description" : "Relation par rapport au patient - CI-SIS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
+        "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique"
+      ],
+      "oids" : ["1.2.250.1.213.3.3.16"],
+      "sources" : ["1.2.250.1.213.3.3.16"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-related-entity.html" : "RelatedEntity"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J47-FunctionCode-CISIS",
+      "title" : null,
+      "description" : "Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
+        "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.124"],
+      "sources" : ["1.2.250.1.213.1.1.5.124"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-author.html" : "author"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "id" : "PN",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/cda/stds/core/StructureDefinition/PN",
+    "version" : "0.1.0",
+    "name" : "PN"
+  },
+  {
+    "id" : "ans.document.fr.core",
+    "type" : "ImplementationGuide",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/ImplementationGuide/ans.document.fr.core",
+    "version" : "0.1.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "fr-core-assigned-author",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-assigned-author",
+    "version" : "0.1.0",
+    "name" : "FrAssignedAuthor"
+  },
+  {
+    "id" : "fr-core-assigned-custodian",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-assigned-custodian",
+    "version" : "0.1.0",
+    "name" : "FrAssignedCustodian"
+  },
+  {
+    "id" : "fr-core-assigned-entity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-assigned-entity",
+    "version" : "0.1.0",
+    "name" : "FrAssignedntity"
+  },
+  {
+    "id" : "fr-core-associated-entity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-associated-entity",
+    "version" : "0.1.0",
+    "name" : "FrAssociatedEntity"
+  },
+  {
+    "id" : "fr-core-authenticator",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-authenticator",
+    "version" : "0.1.0",
+    "name" : "FrAuthenticator"
+  },
+  {
+    "id" : "fr-core-author",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-author",
+    "version" : "0.1.0",
+    "name" : "FrAuthor"
+  },
+  {
+    "id" : "fr-core-authorization",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-authorization",
+    "version" : "0.1.0",
+    "name" : "FrAuthorization"
+  },
+  {
+    "id" : "fr-core-component-of",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-component-of",
+    "version" : "0.1.0",
+    "name" : "FrComponentOf"
+  },
+  {
+    "id" : "fr-core-custodian",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-custodian",
+    "version" : "0.1.0",
+    "name" : "FrCustodian"
+  },
+  {
+    "id" : "fr-core-data-enterer",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-data-enterer",
+    "version" : "0.1.0",
+    "name" : "FrDataEnterer"
+  },
+  {
+    "id" : "fr-core-documentation-of",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-documentation-of",
+    "version" : "0.1.0",
+    "name" : "FrDocumentationOf"
+  },
+  {
+    "id" : "fr-core-inFulfillment-of",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-inFulfillment-of",
+    "version" : "0.1.0",
+    "name" : "FrInFulfillmentOf"
+  },
+  {
+    "id" : "fr-core-informant",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-informant",
+    "version" : "0.1.0",
+    "name" : "FrInformant"
+  },
+  {
+    "id" : "fr-core-information-recipient",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-information-recipient",
+    "version" : "0.1.0",
+    "name" : "FrInformationRecipient"
+  },
+  {
+    "id" : "fr-core-legal-authenticator",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-legal-authenticator",
+    "version" : "0.1.0",
+    "name" : "FrLegalAuthenticator"
+  },
+  {
+    "id" : "fr-core-participant",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-participant",
+    "version" : "0.1.0",
+    "name" : "FrParticipant"
+  },
+  {
+    "id" : "fr-core-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-patient",
+    "version" : "0.1.0",
+    "name" : "FrPatient"
+  },
+  {
+    "id" : "fr-core-patient-role",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-patient-role",
+    "version" : "0.1.0",
+    "name" : "FrPatientRole"
+  },
+  {
+    "id" : "fr-core-performer",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-performer",
+    "version" : "0.1.0",
+    "name" : "FrPerformer"
+  },
+  {
+    "id" : "fr-core-person",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-person",
+    "version" : "0.1.0",
+    "name" : "FrPerson"
+  },
+  {
+    "id" : "fr-core-record-target",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-record-target",
+    "version" : "0.1.0",
+    "name" : "FrRecordTarget"
+  },
+  {
+    "id" : "fr-core-related-document",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-related-document",
+    "version" : "0.1.0",
+    "name" : "FrRelatedDocument"
+  },
+  {
+    "id" : "fr-core-related-entity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-related-entity",
+    "version" : "0.1.0",
+    "name" : "FrRelatedEntity"
+  },
+  {
+    "id" : "fr-core-service-event",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-service-event",
+    "version" : "0.1.0",
+    "name" : "FrServiceEvent"
+  },
+  {
+    "id" : "TRER260HL7RoleClassVS",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/document/core/ValueSet/TRER260HL7RoleClassVS",
+    "version" : "0.1.0",
+    "name" : "TRER260HL7RoleClassVS"
+  }
+]

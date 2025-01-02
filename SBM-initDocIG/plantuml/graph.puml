@@ -1,0 +1,330 @@
+@startuml
+set namespaceSeparator ?
+hide circle
+hide class fields
+
+package IG #DDDDDD{
+
+     package Profiles #DDDDDD{
+
+        class FrAssignedAuthor{
+
+             AssignedAuthor => [None..None]
+             AssignedAuthor.nullFlavor => [None..0]
+             AssignedAuthor.typeId.nullFlavor => [None..0]
+             AssignedAuthor.typeId.assigningAuthorityName => [None..0]
+             AssignedAuthor.typeId.displayable => [None..0]
+             AssignedAuthor.classCode => [None..0]
+             AssignedAuthor.id.nullFlavor => [None..0]
+             AssignedAuthor.sdtcIdentifiedBy => [None..0]
+             AssignedAuthor.code => [None..None]
+        } 
+
+        class FrAssignedCustodian{
+
+             AssignedCustodian => [None..None]
+        } 
+
+        class FrAssignedntity{
+
+             AssignedEntity => [None..None]
+             AssignedEntity.nullFlavor => [None..0]
+             AssignedEntity.typeId.nullFlavor => [None..0]
+             AssignedEntity.typeId.assigningAuthorityName => [None..0]
+             AssignedEntity.typeId.displayable => [None..0]
+             AssignedEntity.classCode => [None..0]
+             AssignedEntity.id => [None..1]
+             AssignedEntity.sdtcIdentifiedBy => [None..0]
+             AssignedEntity.code.nullFlavor => [None..0]
+             AssignedEntity.sdtcPatient => [None..0]
+        } 
+
+        class FrAssociatedEntity{
+
+             AssociatedEntity => [None..None]
+        } 
+
+        class FrAuthenticator{
+
+             Authenticator => [None..None]
+        } 
+
+        class FrAuthor{
+
+             Author => [None..None]
+             Author.nullFlavor => [None..0]
+             Author.typeId.nullFlavor => [None..0]
+             Author.typeId.assigningAuthorityName => [None..0]
+             Author.typeId.displayable => [None..0]
+             Author.typeCode => [None..0]
+             Author.contextControlCode => [None..0]
+             Author.functionCode.nullFlavor => [None..0]
+             Author.functionCode.code => [1..None]
+             Author.functionCode.codeSystem => [1..None]
+             Author.functionCode.codeSystemVersion => [None..0]
+             Author.functionCode.sdtcValueSet => [None..0]
+             Author.functionCode.sdtcValueSetVersion => [None..0]
+             Author.time.value => [1..None]
+             Author.assignedAuthor => [None..None]
+        } 
+
+        class FrAuthorization{
+
+             Authorization => [None..None]
+        } 
+
+        class FrComponentOf{
+
+             ComponentOf => [None..None]
+        } 
+
+        class FrCustodian{
+
+             Custodian => [None..None]
+        } 
+
+        class FrDataEnterer{
+
+             DataEnterer => [None..None]
+        } 
+
+        class FrDocumentationOf{
+
+             DocumentationOf => [None..None]
+        } 
+
+        class FrInFulfillmentOf{
+
+             InFulfillmentOf => [None..None]
+        } 
+
+        class FrInformant{
+
+             Informant => [None..None]
+             Informant.nullFlavor => [None..0]
+             Informant.typeId.nullFlavor => [None..0]
+             Informant.typeId.assigningAuthorityName => [None..0]
+             Informant.typeId.displayable => [None..0]
+             Informant.typeCode => [None..0]
+             Informant.contextControlCode => [None..0]
+             Informant.assignedEntity => [None..None]
+             Informant.relatedEntity => [None..None]
+        } 
+
+        class FrInformationRecipient{
+
+             InformationRecipient => [None..None]
+        } 
+
+        class FrLegalAuthenticator{
+
+             LegalAuthenticator => [None..None]
+        } 
+
+        class FrParticipant{
+
+             Participant1 => [None..None]
+        } 
+
+        class FrPatientRole{
+
+             PatientRole => [None..None]
+             PatientRole.nullFlavor => [None..0]
+             PatientRole.realmCode => [None..0]
+             PatientRole.typeId => [None..0]
+             PatientRole.templateId => [None..0]
+             PatientRole.classCode => [None..0]
+             PatientRole.sdtcIdentifiedBy => [None..0]
+             PatientRole.patient => [1..None]
+             PatientRole.providerOrganization => [None..0]
+        } 
+
+        class FrPatient{
+
+             Patient.classCode => [None..0]
+             Patient.determinerCode => [None..0]
+             Patient.name => [1..1]
+             Patient.administrativeGenderCode => [1..None]
+             Patient.birthTime => [1..None]
+             Patient.maritalStatusCode => [None..0]
+             Patient.religiousAffiliationCode => [None..0]
+             Patient.raceCode => [None..0]
+             Patient.sdtcRaceCode => [None..0]
+             Patient.ethnicGroupCode => [None..0]
+             Patient.sdtcEthnicGroupCode => [None..0]
+             Patient.languageCommunication => [None..0]
+        } 
+
+        class FrPerformer{
+
+             Performer1 => [None..None]
+        } 
+
+        class FrPerson{
+
+             Person.nullFlavor => [None..0]
+             Person.typeId.nullFlavor => [None..0]
+             Person.typeId.assigningAuthorityName => [None..0]
+             Person.typeId.displayable => [None..0]
+             Person.classCode => [None..0]
+             Person.determinerCode => [None..0]
+             Person.name => [1..1]
+             Person.name.family => [1..1]
+             Person.name.given => [None..1]
+             Person.name.prefix => [None..1]
+             Person.name.validTime => [None..0]
+             Person.name.nullFlavor => [None..0]
+             Person.name.use => [None..0]
+             Person.sdtcDesc => [None..0]
+             Person.sdtcAsPatientRelationship => [None..0]
+        } 
+
+        class FrRecordTarget{
+
+             RecordTarget => [None..None]
+             RecordTarget.nullFlavor => [None..0]
+             RecordTarget.typeId.nullFlavor => [None..0]
+             RecordTarget.typeId.assigningAuthorityName => [None..0]
+             RecordTarget.typeId.displayable => [None..0]
+             RecordTarget.typeCode => [None..0]
+             RecordTarget.contextControlCode => [None..0]
+             RecordTarget.patientRole => [None..None]
+        } 
+
+        class FrRelatedDocument{
+
+             RelatedDocument => [None..None]
+        } 
+
+        class FrRelatedEntity{
+
+             RelatedEntity.nullFlavor => [None..0]
+             RelatedEntity.typeId.nullFlavor => [None..0]
+             RelatedEntity.typeId.assigningAuthorityName => [None..0]
+             RelatedEntity.typeId.displayable => [None..0]
+             RelatedEntity.classCode => [None..None]
+             RelatedEntity.code => [None..None]
+             RelatedEntity.code.nullFlavor => [None..0]
+             RelatedEntity.code.code => [1..None]
+             RelatedEntity.code.codeSystem => [1..None]
+             RelatedEntity.code.codeSystemVersion => [None..0]
+             RelatedEntity.code.displayName => [1..None]
+             RelatedEntity.code.sdtcValueSet => [None..0]
+             RelatedEntity.code.sdtcValueSetVersion => [None..0]
+             RelatedEntity.telecom => [1..None]
+             RelatedEntity.relatedPerson => [1..None]
+        } 
+
+        class FrServiceEvent{
+
+             ServiceEvent => [None..None]
+         }
+
+     }
+     package extension #paleturquoise {
+
+
+         }
+     }
+     package valueset #PaleVioletRed{
+       }
+
+package "Ressources de base" #palegreen {
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor" as  class58510d48686a6398080b7be0a9488a07 
+
+    class58510d48686a6398080b7be0a9488a07 --> FrAssignedAuthor
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/AssignedCustodian" as  class9d6ae0bd4aff182e6679539d1b5e57dd 
+
+    class9d6ae0bd4aff182e6679539d1b5e57dd --> FrAssignedCustodian
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity" as  classa57c2cf8eee922b736f24aae263fb85a 
+
+    classa57c2cf8eee922b736f24aae263fb85a --> FrAssignedntity
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity" as  classf02f59ca36afce3537fd13cedd8610bc 
+
+    classf02f59ca36afce3537fd13cedd8610bc --> FrAssociatedEntity
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Authenticator" as  class53108c7e3b2a59607cdb20ab0b268d03 
+
+    class53108c7e3b2a59607cdb20ab0b268d03 --> FrAuthenticator
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Author" as  class937cfe84638a385773bc82a876cf4a8d 
+
+    class937cfe84638a385773bc82a876cf4a8d --> FrAuthor
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Authorization" as  class598114d4c6d4bf797def36d247d40839 
+
+    class598114d4c6d4bf797def36d247d40839 --> FrAuthorization
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/ComponentOf" as  class4277423a305ecb24dc9d37288c280772 
+
+    class4277423a305ecb24dc9d37288c280772 --> FrComponentOf
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Custodian" as  classd84e4a39bf094111de7518d5a5411c66 
+
+    classd84e4a39bf094111de7518d5a5411c66 --> FrCustodian
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer" as  class637494ebd710a0dd928d3bba66f7c36c 
+
+    class637494ebd710a0dd928d3bba66f7c36c --> FrDataEnterer
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf" as  class0977267ea48347e7fb26a0e81e862268 
+
+    class0977267ea48347e7fb26a0e81e862268 --> FrDocumentationOf
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf" as  classe90f25fe105c3c9c4c47c62629a3765d 
+
+    classe90f25fe105c3c9c4c47c62629a3765d --> FrInFulfillmentOf
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Informant" as  class0bdf5ad046cc54eb3cb2ac8f5bc2f2c8 
+
+    class0bdf5ad046cc54eb3cb2ac8f5bc2f2c8 --> FrInformant
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient" as  classb6fd1ae4a9b50563c83e48eaaf673af4 
+
+    classb6fd1ae4a9b50563c83e48eaaf673af4 --> FrInformationRecipient
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator" as  class57f35676579cccc1659c4601fa19b43b 
+
+    class57f35676579cccc1659c4601fa19b43b --> FrLegalAuthenticator
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Participant1" as  class2fd9a3b182710aa68f9e615904fe1537 
+
+    class2fd9a3b182710aa68f9e615904fe1537 --> FrParticipant
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/PatientRole" as  class1e213e8519f12110736b032cda341174 
+
+    class1e213e8519f12110736b032cda341174 --> FrPatientRole
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Patient" as  classa8889bb6f3999fb5243b3ed3b492e0c4 
+
+    classa8889bb6f3999fb5243b3ed3b492e0c4 --> FrPatient
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Performer1" as  class2322ea8c73e0b95c4de59f56ee36a694 
+
+    class2322ea8c73e0b95c4de59f56ee36a694 --> FrPerformer
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/Person" as  classb14b9f756425869ebeb8ade0004931e1 
+
+    classb14b9f756425869ebeb8ade0004931e1 --> FrPerson
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget" as  class0baedfe5573df35f7a6ee5934c45b818 
+
+    class0baedfe5573df35f7a6ee5934c45b818 --> FrRecordTarget
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument" as  classddc7c43262268f3e7ef73c1c5ad6b514 
+
+    classddc7c43262268f3e7ef73c1c5ad6b514 --> FrRelatedDocument
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/RelatedEntity" as  class0a3bfa693dae125e5c0a4e8cab321d9a 
+
+    class0a3bfa693dae125e5c0a4e8cab321d9a --> FrRelatedEntity
+
+ class "http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent" as  class21fc45b6eacaebf264ceab7c3130a980 
+
+    class21fc45b6eacaebf264ceab7c3130a980 --> FrServiceEvent
+}
+@enduml

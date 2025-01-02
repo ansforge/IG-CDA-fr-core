@@ -1,0 +1,115 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 39, warn = 7, info = 0
+$--
+Generated $--. FHIR version $-- for ans.document.fr.core#$-- (canonical = https://interop.esante.gouv.fr/ig/document/core)
+ Build Errors : 6 / 3 / 0
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/ImplementationGuide-ans.document.fr.core : 0 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-assigned-author : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-assigned-custodian : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-assigned-entity : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-associated-entity : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-authenticator : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-author : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-authorization : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-component-of : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-custodian : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-data-enterer : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-documentation-of : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-inFulfillment-of : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-informant : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-information-recipient : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-legal-authenticator : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-participant : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-patient : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-patient-role : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-performer : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-person : 9 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-record-target : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-related-document : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-related-entity : 5 / 1 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/StructureDefinition-fr-core-service-event : 1 / 0 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/fsh-generated/resources/ValueSet-TRER260HL7RoleClassVS : 0 / 3 / 1
+ /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/input/profiles/PN : 3 / 0 / 1
+</table>
+== n/a ==
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/StructureDefinition-fr-core-person.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 543, column 711: The link 'StructureDefinition-fr-core-person-definitions.html#Person.name.family' for "family" cannot be resolved (valid targets: 89 targets)
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/StructureDefinition-fr-core-person.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 549, column 705: The link 'StructureDefinition-fr-core-person-definitions.html#Person.name.given' for "given" cannot be resolved (valid targets: 89 targets)
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/StructureDefinition-fr-core-person.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 555, column 711: The link 'StructureDefinition-fr-core-person-definitions.html#Person.name.prefix' for "prefix" cannot be resolved (valid targets: 89 targets)
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/StructureDefinition-fr-core-person.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 987, column 711: The link 'StructureDefinition-fr-core-person-definitions.html#Person.name.family' for "family" cannot be resolved (valid targets: 89 targets)
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/StructureDefinition-fr-core-person.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 993, column 705: The link 'StructureDefinition-fr-core-person-definitions.html#Person.name.given' for "given" cannot be resolved (valid targets: 89 targets)
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/StructureDefinition-fr-core-person.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 999, column 711: The link 'StructureDefinition-fr-core-person-definitions.html#Person.name.prefix' for "prefix" cannot be resolved (valid targets: 89 targets)
+WARNING: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/output/searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img/footer/div/div/div/div/div/div/a/img/div/a/img/script at Line 255, column 7: The <script> containing the javascript '$( document ).ready('... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-ans.document.fr.core.json ==
+== fsh-generated/resources/StructureDefinition-fr-core-assigned-author.json ==
+ERROR: StructureDefinition/fr-core-assigned-author: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-assigned-custodian.json ==
+ERROR: StructureDefinition/fr-core-assigned-custodian: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-assigned-entity.json ==
+ERROR: StructureDefinition/fr-core-assigned-entity: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-associated-entity.json ==
+ERROR: StructureDefinition/fr-core-associated-entity: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-authenticator.json ==
+ERROR: StructureDefinition/fr-core-authenticator: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-author.json ==
+ERROR: StructureDefinition/fr-core-author: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-authorization.json ==
+ERROR: StructureDefinition/fr-core-authorization: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-component-of.json ==
+ERROR: StructureDefinition/fr-core-component-of: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-custodian.json ==
+ERROR: StructureDefinition/fr-core-custodian: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-data-enterer.json ==
+ERROR: StructureDefinition/fr-core-data-enterer: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-documentation-of.json ==
+ERROR: StructureDefinition/fr-core-documentation-of: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-inFulfillment-of.json ==
+ERROR: StructureDefinition/fr-core-inFulfillment-of: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-informant.json ==
+ERROR: StructureDefinition/fr-core-informant: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-information-recipient.json ==
+ERROR: StructureDefinition/fr-core-information-recipient: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-legal-authenticator.json ==
+ERROR: StructureDefinition/fr-core-legal-authenticator: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-participant.json ==
+ERROR: StructureDefinition/fr-core-participant: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-patient.json ==
+ERROR: StructureDefinition/fr-core-patient: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-patient-role.json ==
+ERROR: StructureDefinition/fr-core-patient-role: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-performer.json ==
+ERROR: StructureDefinition/fr-core-performer: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-person.json ==
+ERROR: StructureDefinition.differential.element[7]: No match found for Person.name.family in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition.differential.element[8]: No match found for Person.name.given in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition.differential.element[9]: No match found for Person.name.prefix in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition.differential.element[10]: No match found for Person.name.validTime in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-person: The profile https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-core-person has 4 elements in the differential (id: Person.name.family, id: Person.name.given, id: Person.name.prefix, id: Person.name.validTime) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/fr-core-person: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-fr-core-person-definitions.html#Person.name.family' at 'div/table/tr/td/a' for 'family' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-fr-core-person-definitions.html#Person.name.given' at 'div/table/tr/td/a' for 'given' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-fr-core-person-definitions.html#Person.name.prefix' at 'div/table/tr/td/a' for 'prefix' does not resolve
+== fsh-generated/resources/StructureDefinition-fr-core-record-target.json ==
+ERROR: StructureDefinition/fr-core-record-target: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-related-document.json ==
+ERROR: StructureDefinition/fr-core-related-document: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-fr-core-related-entity.json ==
+WARNING: RelatedEntity.RelatedEntity.classCode: Binding https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass could not be located
+ERROR: StructureDefinition/fr-core-related-entity: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+ERROR: StructureDefinition/fr-core-related-entity: StructureDefinition.snapshot.element[10].binding.valueSet: Canonical URL 'https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/fr-core-related-entity: StructureDefinition.differential.element[4].binding.valueSet: Canonical URL 'https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/fr-core-related-entity: StructureDefinition.differential.element[4].binding: The valueSet reference https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass on element RelatedEntity.classCode points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/fr-core-related-entity: StructureDefinition.snapshot.element[10].binding: The valueSet reference https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass on element RelatedEntity.classCode points to something that is not a value set (CodeSystem)
+== fsh-generated/resources/StructureDefinition-fr-core-service-event.json ==
+ERROR: StructureDefinition/fr-core-service-event: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/ValueSet-TRER260HL7RoleClassVS.json ==
+WARNING: ValueSet/TRER260HL7RoleClassVS: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.5.110' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.5.110' could not be found, so the code cannot be validated)
+WARNING: ValueSet/TRER260HL7RoleClassVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'TRER260HL7RoleClassVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.5.110
+== input/profiles/PN.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/cda/stds/core/StructureDefinition/PN'): Conformance resource /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/input/profiles/PN.json - the canonical URL (https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/PN) does not match the URL (http://hl7.org/cda/stds/core/StructureDefinition/PN)
+ERROR: StructureDefinition/PN: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+ERROR: /home/runner/work/IG-CDA-fr-core/IG-CDA-fr-core/igSource/input/profiles/PN: URL Mismatch https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/PN vs http://hl7.org/cda/stds/core/StructureDefinition/PN
